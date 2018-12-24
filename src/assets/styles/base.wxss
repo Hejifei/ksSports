@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei", Helvetica, STHeiTi, "Helvetica Neue", "微软雅黑", SimSun, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+.avatar-wrapper .avatar-uploader {
+  height: 100px;
+  width: 100px;
+}
+.avatar-wrapper .avatar-uploader img {
+  width: 100px;
+  height: 100px;
+}
+.avatar-wrapper .avatar-uploader .el-upload--text {
+  height: 100px;
+}
+.idcard-wrapper .avatar-uploader {
+  width: 280px ;
+  height: 178px ;
+  box-sizing: border-box;
+}
+.idcard-wrapper .avatar-uploader img {
+  width: 280px !important;
+  height: 178px !important;
+}
+.idcard-wrapper .avatar-uploader .el-upload--text {
+  height: 178px;
+}
+.tipp {
+  padding: 10px 0;
+  line-height: 25px;
+  color: #FF0000;
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-Regular;
+}
+.formbtnline {
+  padding: 20px 0;
+}
+.formbtnline .bluebtn {
+  background-color: #006DB3;
+}
+.formbtnline .redbtn {
+  background-color: #B30000;
+}
+.aplRecord {
+  display: flex;
+  line-height: 22px;
+  color: #000000;
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-Regular;
+}
+.aplRecord .ar_Detail {
+  flex: 1;
+}
+.listrecordC {
+  padding: 12px 0;
+  height: 285px;
+}
+.listrecordC ul {
+  list-style: none;
+  height: 100%;
+  overflow: auto;
+}
+.listrecordC ul li {
+  height: 62px;
+  line-height: 62px;
+  color: #232323;
+  font-size: 16px;
+  text-align: left;
+  font-family: PingFangSC-Regular;
+  border-bottom: 1px solid #E1E1E1;
+}
+.listrecordC ul .flexli {
+  display: flex;
+}
+.listrecordC ul .flexli span {
+  flex: 1;
+}
+.listrecordC ul .flexli a {
+  padding: 0 43px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.listrecordC ul .flexli .readbtn {
+  color: #006DB3;
+}
+.listrecordC ul .flexli .delbtn {
+  color: #B30000;
+}
+.listtitle a {
+  float: right;
+  margin-right: 20px;
+  line-height: 42px;
+  color: #006db3;
+  font-size: 20px;
+  text-align: left;
+  font-family: PingFangSC-Semibold;
+}
+.texta_right {
+  text-align: right;
+}
+.nofitySelC {
+  display: flex;
+}
+.nofitySelC .nfsTitle {
+  width: 120px;
+}
+.nofitySelC .nfsContent {
+  flex: 1;
+}
+.savebtn {
+  width: 140px;
+  text-align: center;
+}
+textarea {
+  resize: none !important;
+}
+.loginmodel {
+  display: flex;
+  align-items: center;
+}
+.loginmodel .el-dialog {
+  height: auto !important;
+  margin-top: 0 !important;
+  margin: 0 auto;
+}
+.loginmodel .el-dialog .tiptitle {
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  text-align: left;
+  font-family: PingFangSC-Medium;
+  font-weight: bold;
+}
+.loginmodel .el-dialog .tiptitle i {
+  font-size: 22px;
+  margin-right: 16px;
+}
+.loginmodel .el-dialog .tiptitle .yellow {
+  color: #FAAD14;
+}
+.loginmodel .el-dialog .tiptitle .red {
+  color: #F5222D;
+}
+.loginmodel .el-dialog .el-dialog__body {
+  padding: 0 20px 20px 32px;
+  min-height: 95px;
+}
+.loginmodel .el-dialog .tipcontent {
+  padding: 12px 0 0 38px;
+  text-align: left;
+  color: #000000;
+  opacity: 0.65;
+}
+.loginmodel .el-dialog .dialog-footer {
+  flex-direction: row-reverse;
+}
+.judgeaddthreesel .el-form-item__content {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+}

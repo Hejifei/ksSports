@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Microsoft YaHei", Helvetica, STHeiTi,"Helvetica Neue","微软雅黑",SimSun,sans-serif
+}
+html,body{
+  height: 100%;
+  overflow: auto;
+}
+.avatar-wrapper .avatar-uploader{
+  min-height: 100px;
+  min-width: 100px;
+  img{
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .el-upload--text{
+    min-height: 100px;
+  }
+}
+.idcard-wrapper .avatar-uploader{
+  width: 280px ;
+  height: 178px ;
+  // background: red;
+  box-sizing: border-box;
+  img{
+    width: 280px !important;
+    height: 178px !important;
+  
+  }
+  .el-upload--text{
+    height: 178px;
+  }
+}
+.tipp{
+  padding:10px 0;
+  line-height: 25px;
+  color: #FF0000;
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-Regular;
+}
+.formbtnline{padding: 20px 0;
+  .bluebtn{background-color: #006DB3;}
+  .redbtn{background-color: #B30000;}
+}
+.aplRecord{display: flex;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-Regular;
+  .aR_title{}
+  .ar_Detail{flex: 1;}
+}
+// 记录列表
+.listrecordC{padding: 12px 0;height: 285px;
+  ul{list-style: none;height: 100%;overflow: auto;
+    li{height: 62px;line-height: 62px;
+      color: rgba(35, 35, 35, 1);
+      font-size: 16px;
+      text-align: left;
+      font-family: PingFangSC-Regular;
+      border-bottom: 1px solid #E1E1E1;
+    }
+    .flexli{display: flex;
+      span{flex: 1;}
+      a{padding: 0 43px;text-decoration: none;cursor: pointer;}
+      .readbtn{color: #006DB3;}
+      .delbtn{color: #B30000;}
+    }
+  }
+
+}
+.listtitle a{
+  float: right;
+  margin-right: 20px;
+  line-height: 42px;
+  color: rgba(0, 109, 179, 1);
+  font-size: 20px;
+  text-align: left;
+  font-family: PingFangSC-Semibold;
+
+}
+.texta_right{text-align: right;}
+.nofitySelC{display: flex;
+  .nfsTitle{width: 120px;}
+  .nfsContent{flex: 1;}
+}
+
+.savebtn{width: 140px;text-align: center;}
+
+textarea{resize:none !important;}
+
+.loginmodel {
+  display: flex;
+  align-items:center;
+  .el-dialog{
+    height: auto !important;
+    margin-top:0 !important;
+    margin: 0 auto;
+    .tiptitle{text-align: left;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 16px;
+      text-align: left;
+      font-family: PingFangSC-Medium;
+      font-weight: bold;
+      i{font-size: 22px;margin-right: 16px;}
+      .yellow{color: #FAAD14;}
+      .red{color: #F5222D;}
+    }
+    .el-dialog__body{padding: 0 20px 20px 32px;min-height: 95px;}
+    .tipcontent{padding: 12px 0 0 38px;text-align: left;color: #000000;opacity: 0.65;}
+    .dialog-footer{flex-direction: row-reverse;}
+  }
+}
+
+.judgeaddthreesel .el-form-item__content {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.notifyclubsC{padding: 0 22px;
+  .el-collapse-item__header{
+    font-size: 18px;
+    color: #006DB3;
+    font-weight: bold;
+    .el-collapse-item__arrow{float:left;color:#323232;font-weight: bold;font-size: 20px;}
+  }
+  .common{
+    color: #006DB3;
+    font-size: 14px;
+    margin-right: 28px;
+  }
+  .img-wrapper{
+    display: flex;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    div{
+
+      margin-right: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img{
+        width: 96px;
+        height: 135px;
+        
+      }
+    }
+  }
+}
+
+// 列表公共样式
+.listtableC{
+  table {
+    thead tr th{line-height:30px;padding:4px 0;background-color:#F6F8FF;border-bottom:0 !important;
+      .cell{line-height:22px;font-size:14px;font-weight:bold;color:#000;text-align:center;font-family:PingFangSC-Semibold;}
+    }
+    tbody{
+      td{border-bottom:0;padding:16px 0;
+        .cell{font-size:14px;color:#000;text-align:center;}
+      }
+      tr:nth-child(odd){}
+      tr:nth-child(even){background-color:#F5F5F5;}
+    }
+  }
+}
+.avatar-wrapper .personimg .el-upload {
+  width: 104px;
+  height: 145px !important;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  img{width: 104px;height: 145px;}
+}
+.personimg .logo-img{margin-top: 20px;width: 100px !important;height: 100px !important;}
+.avatar-wrapper .avatar-uploader .el-upload,.idcard-wrapper .avatar-uploader .el-upload{background-color: #fff;border: 1px dashed #d9d9d9;box-sizing: border-box;}
+// .avatar-wrapper .avatar-uploader .el-upload--text{ height: 145px;}
+.listSearchCout{display: flex;
+  .listSearchC{flex: 1;}
+  .listsearchc{width: 120px;
+    text-align: left;
+    line-height: 35px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000000;
+    a{display: inline-block;position: relative;top:0px;cursor: pointer;outline: none;}
+    .searchBtn{width:116px;height: 50px;background: url(../img/web_btsea.png) no-repeat center center;background-size: 100%;}
+    .exportBtn{width:104px;height: 36px;top:6px;;background: url(../img/export.png) no-repeat center center;background-size: 100%;}
+  }
+}
+.clubupload{width: 100px;height: 100px !important;overflow: hidden;
+  .el-upload {width: 100px;height: 100px !important;overflow: hidden;
+    
+    .logo-img,img{width: 100px;height: 100px;}
+  }
+}
+.el-aside::-webkit-scrollbar {display:none}
+.avatar-wrapper .personimg .el-upload {
+  width: 104px;
+  height: 145px !important;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-wrapper .personimg {
+  width: 104px;
+  height: 145px;
+}
+.listimgsel .el-upload-list--picture-card .el-upload-list__item{width:90px;height: 90px;}
+.listtimesel .el-date-editor{width: 100%;}
+.listimgsel .el-upload-list img{width:90px;height: 90px;}
+.listimgsel .el-upload-list--picture-card .el-upload-list__item{width:90px;height: 90px;}
+.listimgsel{
+  .el-form-item__content{width:100%;
+    >div{display: flex;width:100%;flex-direction: row;width: 196px;overflow: hidden;white-space: nowrap;}
+  }
+  .el-dialog__body{
+     img{max-width: 100%;max-height: 100%;}
+  }
+  .el-upload--picture-card{width:90px;height: 90px;line-height: 90px}
+}
+.el-dialog__body{background-color: #fff;}
+.judgetabc{
+  .el-tabs__header{width: 100%;
+    .el-tabs__nav-wrap{width: 100%;
+      .el-tabs__nav{width: 100%;
+        .is-top{width: 50% !important;}
+        .el-tabs__item{text-align: center;color: black;font-size: 20px;line-height: 75px;height: 75px;}
+      }
+    }
+    
+  }
+}

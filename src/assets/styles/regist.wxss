@@ -1,0 +1,77 @@
+.sign-wrapper {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  padding: 41px 60px 45px;
+  background: linear-gradient(to right, #006db3, #6DC6FF);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+.sign-wrapper .title {
+  font-size: 38px;
+  color: white;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.sign-wrapper .main {
+  border-radius: 18px;
+  background: white;
+  box-sizing: border-box;
+}
+.sign-wrapper .regsusC {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: url(../img/web_wczz1.png) no-repeat left 40% top 100%;
+  background-size: 727px 414px;
+}
+.sign-wrapper .regsusC .regsusSon {
+  width: 100%;
+}
+.sign-wrapper .regsusC .sucText {
+  width: 100%;
+  padding: 0 0 80px;
+  line-height: 46px;
+  color: #232323;
+  font-size: 33px;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  border-bottom: 2px dashed #000;
+}
+.sign-wrapper .regsusC .sucText img {
+  width: 374px;
+}
+.sign-wrapper .regsusC .waittext {
+  width: 100% !important;
+  padding: 64px 0 50px;
+  width: 696px;
+  line-height: 33px;
+  color: #232323;
+  font-size: 24px;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  min-height: 258px;
+}
+.sign-wrapper .regsusC .waittext a {
+  height: 56px;
+  line-height: 56px;
+  display: block;
+  color: #0099C2;
+  font-size: 40px;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  margin-top: 55px;
+  text-decoration: none;
+}
+.sign-wrapper:after {
+  content: '';
+  width: 999px;
+  height: 136px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../img/web_topbg.png) no-repeat top right;
+}
